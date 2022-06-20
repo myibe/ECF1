@@ -1,0 +1,26 @@
+h1 {
+    text-shadow: 1px 3px #A6937C;
+
+  }
+
+
+
+.texte {
+    background-color: #F2F2F2;
+    font-family: 'Imprima', sans-serif;
+    box-shadow:  5px 5px 10px 1px rgb(110, 108, 108);
+
+    
+}
+
+.text {
+    background-color: #F2F2F2;
+    font-family: 'Imprima', sans-serif;
+    box-shadow: 5px 5px 10px 1px rgb(110, 108, 108);
+    
+}
+
+.contact {
+    background-color: #D9D2CC;
+}
+

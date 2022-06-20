@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  <link href="../dist/output.css" rel="stylesheet">
+
+</head>
+
+<body>
+<header>
+
+
+<!---------------- BURGER MENU --------------------->
+<!---------------- BURGER MENU --------------------->
+
+  <div class="grid grid-cols-1 pb-10">
+    <div class="col ">
+  <nav class="flex items-center justify-between flex-wrap p-6 w-full z-10 top-0">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <a class="text-white no-underline hover:text-white hover:no-underline" href="#"></a>
+    </div>
+
+    <div class="block lg:hidden">
+
+        <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-black hover:border-black bg-white lg:hidden">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+    </div>
+
+    <div class="burger shadow-lg w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block p-2 lg:pt-0 bg-blue-100 lg:bg-white" id="nav-content">
+        <ul class="list-reset lg:flex justify-center flex-1 items-center">
+
+            <li class="mr-3">
+                <a class="inline-block text-gray-600 no-underline hover:text-gray-200 py-2 px-4" href="#" onclick="hideBurger()">home</a>
+            </li>
+
+            <li class="mr-3">
+                <a class="inline-block text-gray-600 text-center no-underline hover:text-gray-200 py-2 px-4" href="#" onclick="hideBurger()">tendances</a>
+            </li>
+
+            <li class="mr-3">
+              <a class="inline-block text-gray-600 no-underline hover:text-gray-200 py-2 px-4" href="#carouselExampleCaptions" onclick="hideBurger()" >gallerie </a>
+          </li>
+
+          <li class="mr-3">
+            <a class="inline-block text-gray-600 no-underline hover:text-gray-200 py-2 px-4" href="#contactus" onclick="hideBurger()">contact</a>
+        </li>
+        </ul>
+    </div>
+</nav>
+</div>
+<div>
+</div>
+</header>
+
+<!---------------- ENTETE --------------------->
+<!---------------- ENTETE --------------------->
+
+    <div class="row">
+        <div class="row-span-2">
+            <h1 class="text-4xl text-center pt-5 font-semibold font-serif  lg:text-7xl lg:pl-12">l'Appart Design</h1>
+        </div>
+          <div class="col-span-3">
+            <p class="text-xs font-serif text-center pb-5  lg:pl-20 lg:text-base lg:pt-5">Depuis 2022</p>
+          </div>
+    </div>
+
+
+<!---------------- PRESENTATION MOBILE --------------------->
+<!---------------- PRESENTATION MOBILE --------------------->
+
+
+            <div class="text col-span-3 m-3 mb-3 p-2 rounded lg:hidden">
+              <p class="text-small p-5 text-justify font-light ">Ire inferentem patriae improborum autem mortem sit omni vindicanda vindicanda qualis inferentem est sit publica est qualis mortem non hodie futurum sequi improborum quis sit curae mortem an est non quod amicitiae ut mortem inferentem qualis sed inferentem sed post bellum quod aliquando autem non consensio omni curae an concessum.</p>
+          </div>
+  
+          <div class="grid grid-cols-2 lg:grid justify-items-center lg:hidden">
+            <div class="col lg:w-1/2">
+              <img src="img/housedesign.png" alt="..." class="pr-0.5 w-fit">
+                <p class="caption">Lorem, ipsum.</p>
+            </div>
+            <div class="col lg:w-1/2 ">
+              <img src="img/design.jpg" alt="..." class="pl-0.5 w-fit">
+                <p class="caption">Lorem, ipsum.</p>
+            </div>
+          </div>
+
+<!---------------- PRESENTATION DESKTOP --------------------->
+<!---------------- PRESENTATION DESKTOP --------------------->
+
+
+
+<div class="lg:grid grid-cols-2 gap-8 hidden">
+
+  <div class="col ml-40">
+    <p class=" texte text-small mt-10 p-5 text-justify font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, aut!Ire inferentem patriae improborum autem mortem sit omni vindicanda vindicanda qualis inferentem est sit publica est qualis mortem non hodie futurum sequi improborum quis sit curae mortem an est non quod amicitiae ut mortem inferentem qualis sed inferentem sed post bellum quod aliquando autem non consensio omni curae an concessum.</p>
+  </div>
+  <div class="col mr-40">
+    <p class=" text text-small mt-10 p-5 text-justify font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, aut!Ire inferentem patriae improborum autem mortem sit omni vindicanda vindicanda qualis inferentem est sit publica est qualis mortem non hodie futurum sequi improborum quis sit curae mortem an est non quod amicitiae ut mortem inferentem qualis sed inferentem sed post bellum quod aliquando autem non consensio omni curae an concessum.</p>
+  </div>
+
+
+</div>
+
+
+<!---------------- GALLERIE DESKTOP ONLY --------------------->
+<!---------------- GALLERIE DESKTOP ONLY --------------------->
+
+        <section class="overflow-hidden text-gray-700">
+          <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32 lg:block hidden">
+            <div class="flex flex-wrap -m-1 md:-m-2">
+              <div class="flex flex-wrap w-1/2 ">
+                <div class="w-1/2 p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="img/housedesign.png">
+                </div>
+                <div class="w-1/2 p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="img/image3.jpeg">
+                </div>
+                <div class="w-full p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="img/image1.jpeg">
+                </div>
+              </div>
+              <div class="flex flex-wrap w-1/2">
+                <div class="w-full p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="img/image5.jpeg">
+                </div>
+                <div class="w-1/2 p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="img/image2.jpeg">
+                </div>
+                <div class="w-1/2 p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="img/image6.jpeg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+<!---------------- CAROUSSEL MOBILE ONLY --------------------->
+<!---------------- CAROUSSEL MOBILE ONLY --------------------->
+
+        <div id="carouselExampleCaptions" class="grid justify-items-center carousel slide relative pt-2 lg:hidden carousel-dark" data-bs-ride="carousel">
+          <div class contactus="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner relative w-1/2  overflow-hidden">
+            <div class="carousel-item active relative float-left w-full">
+              <img
+                src="img/image5.jpeg"
+                class="block w-full"
+                alt="..."
+              />
+              <div class="carousel-caption hidden md:block absolute text-center">
+                <h5 class="text-xl">First slide label</h5>
+                <p>Slide 1.</p>
+              </div>
+            </div>
+            <div class="carousel-item relative float-left w-full">
+              <img
+                src="img/image6.jpeg"
+                class="block w-full"
+                alt="..."
+              />
+              <div class="carousel-caption hidden md:block absolute text-center">
+                <h5 class="text-xl">Second slide label</h5>
+                <p>Slide 2.</p>
+              </div>
+            </div>
+            <div class="carousel-item relative float-left w-full">
+              <img
+                src="img/image7.jpeg"
+                class="block w-full"
+                alt="..."
+              />
+              <div class="carousel-caption hidden md:block absolute text-center">
+                <h5 class="text-xl">Third slide label</h5>
+                <p>Slide 3.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+<!---------------- FOOTER CONTACT--------------------->
+<!---------------- FOOTER CONTACT --------------------->
+
+
+        <div class="grid grid-cols-1">
+          <div class="contact col mt-8">
+            <p class="text-small pt-3 text-center font-medium">l’Appart Design</p>
+            <p class="text-xs text-center tracking-wide">42 rue de la Paix, 75000 Paris</p>
+            <p class="text-xs text-center pb-2 tracking-wide">lappartdesign@mail.com - 0123456789</p>
+            <p class="text-xs text-center pb-2 tracking-wide ">
+              <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-200 rounded shadow " onclick="formVisibility()">Nous contacter</button></p>
+
+          </div>
+        </div>
+<!---------------- FORMULAIRE --------------------->
+<!---------------- FORMULAIRE --------------------->
+
+        <div class="w-full md:w-96 md:max-w-full mx-auto m-3 shadow-lg ">
+          <div class="p-6 border border-gray-300 sm:rounded-md" >
+            <form id="myform" method="POST" action="" style="display: none;">
+              <label class="block mb-6">
+                <span class="text-gray-700 text-xs">Nom</span>
+                <input
+                  type="text"
+                  name="name"
+                  class="shape"
+                  placeholder="John Doe"
+                />
+              </label>
+              <label class="block mb-6">
+                <span class="text-gray-700 text-xs">E-mail</span>
+                <input
+                  name="email"
+                  type="email"
+                  class="shape"
+                  placeholder="lappartdesign@email.com"
+                  required
+                />
+              </label>
+              <label class="block mb-6">
+                <span class="text-gray-700 text-xs">Message</span>
+                <textarea
+                  name="message"
+                  class="shape"
+                  
+                  rows="3"
+                  placeholder="Tell us what you're thinking about..."
+                ></textarea>
+              </label>
+              <div class="grid-cols-1" >
+                <div class="col text-right text-xs">
+                <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow">
+                  Envoyer
+                </button>
+              </div>
+              </div>
+              <div>
+                <div class="mt-2 text-black-700 text-right" >
+                  <a href="" class="hover:underline" target="_blank"
+                    ></a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="grid-cols-1" id="contactus"></div>
+
+          
+
+        <script src="script.js"></script>
+</body>
+</html>
